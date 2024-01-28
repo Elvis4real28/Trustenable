@@ -97,8 +97,8 @@ nav .us {
 
 .fixed {
     position: absolute;
-    top: 43%;
-    left: 50%;
+    top: 68%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: #f8f8f8;
     z-index: 2;
@@ -362,27 +362,27 @@ input[type=text], textarea {
     .fixed {
         position: absolute;
         top: 4%;
-        left: 5%;
         transform: translate(-50%, -50%);
         color: #f8f8f8;
         z-index: 2;
         font-size: 10px;
+        left: 45%;
+        transform: translateX(-50%);
+        visibility: hidden;
+    }
+
+    #hero h2, #hero p {
+        visibility: hidden;
     }
     
-
     /* Adjustments for better responsiveness */
     .hero-content h2 {
         visibility: hidden;
-        font-size: 1.5em; /* Further reduce font size for smaller screens */
+        font-size: 1em; /* Further reduce font size for smaller screens */
     }
 
     .hero-content p {
         font-size: 0.9em; /* Further reduce font size for smaller screens */
-    }
-
-    .fixed {
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .about-content {
