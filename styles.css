@@ -138,7 +138,8 @@ nav .us {
 #about {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(225, 168, 24);
+    /* background-color: rgb(225, 168, 24); */
+    background-color: #fff;
     
 }
 
@@ -148,11 +149,11 @@ nav .us {
 #about .about-text h1,
 #about .about-text h2,
 #about .about-text p {
-    font-size: 25px;
+    font-size: 33.5px;
 }
 
 .about-text #read-more{
-    background-color: #2e3842;
+    background-color: rgb(225, 168, 24);
 }
 
 #home,
@@ -195,7 +196,8 @@ button {
 
 .service {
     margin: 30px 0;
-    background-color:  rgb(225, 168, 24);
+    /* background-color:  rgb(225, 168, 24); */
+    background-color: #fff;
 }
 
 .service-table {
@@ -224,7 +226,7 @@ button {
 }
 
 .service button {
-    background-color: #2e3842;
+    background-color: rgb(225, 168, 24);
     color: #fff;
     padding: 10px 20px;
     border: none;
