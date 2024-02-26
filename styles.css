@@ -60,8 +60,7 @@ nav ul li a:hover {
 nav .us {
     width: 40px;
     background-color: rgb(225, 168, 24);
-    margin-right: 100px;
-  
+    margin-right: 30px;
 }
 #hero {
     position: relative;
@@ -326,11 +325,64 @@ input[type=text], textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
+
+
+form {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(247, 179, 34, 1);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgba(247, 179, 34, 1);
+  }
+  
+  .contact_error {
+    color: #f00;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+
+
 
 
 #contact {
@@ -490,7 +542,7 @@ input[type=text], textarea {
     }
 
     input[type=text], textarea, input[type=submit] {
-        width: 90%; /* Adjust width for better display on small screens */
+        width: 100%; /* Adjust width for better display on small screens */
     }
 
 }
