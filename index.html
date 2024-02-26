@@ -27,7 +27,7 @@
                     <li><a href="#Home" data-aos="zoom-in" >Home</a></li>
                     <li><a href="./about.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
-                    <div  data-tf-live="01HQH6NBRB7HVXNFE1JP173QBD"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                    <div class="us" data-tf-live="01HQH6NBRB7HVXNFE1JP173QBD"></div><script src="//embed.typeform.com/next/embed.js"></script>
                     <!-- <li><a class="us" href="./contact.html">Contact Us</a></li> -->
                 </ul>
             </nav>
@@ -103,31 +103,16 @@
         <h2>Get in Touch</h2>
         <p>Ready to take your digital presence to the next level? Contact us today to get started!</p>
        <br>
-        <!-- <form method="post" action="contact.php">
-      
-            <label for="fname">Name</label>
-      
-      
-            <input type="text" id="name" name="name" placeholder="">
-      
-      
-            <label for="email">Email</label>
-      
-      
-            <input type="text" id="email" name="email" placeholder="">
-      
-      
-            <label for="subject">Message</label>
-      
-      
-            <textarea id="subject" name="subject" placeholder="Write Your Message.." style="height:200px"></textarea>
-      
-      
-            <input type="submit" value="Submit">
-      
-      
-            </form> -->
-            <script type="text/javascript" src="https://form.jotform.com/jsform/230693837811563"></script>      
+       <form method="post" action="contact-form.php">
+        <input type="text" name="ajax_name" placeholder="Your Name" required />
+        <input type="email" name="ajax_email" placeholder="Your Email" required />
+        <textarea
+          name="ajax_message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
 </section>
 
